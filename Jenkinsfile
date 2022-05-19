@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Lint') {
               steps {
-                  echo 'Linting..'
+                  echo 'lint..'
               }
         }
         stage('Test') {
